@@ -21,6 +21,11 @@
         <link rel="stylesheet" type="text/css" href="./chef-kapernaros/style/settings/common_style/common-style.css"/>
         <link rel="stylesheet" type="text/css" href="./chef-kapernaros/style/home_page/style.css" media="screen"/>
 
+        <link rel="stylesheet" type="text/css" href="./chef-kapernaros/style/service_page/service_page.css" media="screen"/>
+        <link rel="stylesheet" type="text/css" href="./chef-kapernaros/style/events_page/events_page.css" media="screen"/>
+        <link rel="stylesheet" type="text/css" href="./chef-kapernaros/style/contact-chef/contact-chef.css" media="screen"/>
+        <link rel="stylesheet" type="text/css" href="./chef-kapernaros/style/chef_table/chef_table.css" media="screen"/>
+
         <!-- FontAwesome -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" media="all">
         <link rel="preconnect" href="https://res.cloudinary.com" crossorigin>
@@ -130,97 +135,8 @@
                 </div> -->
             </div>
         </nav>
+        <main id="pageContainer"> </main>
 
-        <section id="landingSection" class="flex flex-column flex-justifyContent-end" style="position: relative;" id="topPage">
-            <div id="landingPicBox" class="hero">
-                <video
-                    id="heroLandingVideo"
-                    class="slowmo"
-                    autoplay
-                    muted
-                    playsinline
-                    loop
-                    preload="auto"
-                    poster="https://res.cloudinary.com/drdrs6pdq/video/upload/so_0,q_auto,f_jpg/Niko/new_materials/chef_kapernaros_landing_hero.jpg"
-                    crossorigin
-                >
-                    <!-- Put the *most compatible/optimized* source first -->
-                    <source
-                        src="https://res.cloudinary.com/drdrs6pdq/video/upload/c_scale,w_600/v1760735729/Niko/new_materials/chef_kapernaros_landing_hero_9_d9gjwy.mp4"
-                        type="video/mp4" 
-                    />
-
-                    <!-- Optional: a WebM for Chrome/Edge if you want -->
-                    
-                    <source
-                    src="https://res.cloudinary.com/drdrs6pdq/video/upload/c_scale,w_600/v1760735729/Niko/new_materials/chef_kapernaros_landing_hero_9_d9gjwy.webm"
-                    type="video/webm" />
-                   
-                </video>
-            </div>
-            <img src="chef-kapernaros/images/new_golden_logo.svg" alt="Chef Kapernaros Landing page Logo" id="logoLanding">
-            <img src="https://res.cloudinary.com/drdrs6pdq/image/upload/e_blackwhite,q_100/v1760137353/Niko/signature_white_d0rqp9.png" alt="Chef Kapernaros Landing page signature" id="signatureLanding">
-        </section>
-
-        <section class="middlePic py-25 col-12 flex flex-justifyContent-center" id="middlePage">
-            <div class="flex p-15 middleImgWrapper">
-                <img class="col-4" src="https://res.cloudinary.com/drdrs6pdq/image/upload/w_600/v1712187961/Niko/chef-pic-4_fl6wep.webp" alt=" Chef Kapernaros middle pics">
-                <img class="col-4" src="https://res.cloudinary.com/drdrs6pdq/image/upload/v1709573861/Niko/Kapernaros_middle_pic_1_sqpwri.webp" alt=" Chef Kapernaros middle pics">
-                <img class="col-4" src="https://res.cloudinary.com/drdrs6pdq/image/upload/w_600/v1712187500/Niko/plate-pic-3_b51gri.webp" alt=" Chef Kapernaros middle pics">
-            </div>
-        </section>
-
-        <section id="bioSection" class="bioLandingPicContainer col-12 py-40">
-            <div id="bioTextContainer" class=" bioLandingTextWrapper flex flex-column mt-10 pt-50">
-                <p class="titlesChef mt-0 mb-10 ml-40 font-prata"> Chef Nikolaos Kapernaros</p>
-                <p class="mt-10 textBioLanding">In every dish I craft, the essence of my homeland whispers, telling tales of my culture and family traditions.  My culinary journey is a homage to the land and people that raised me, a celebration of bountiful produce, vibrant flavors and enduring heritage.  This is more than cooking; it's a journey back to my roots, a path I tread with every ingredient I choose and every recipe I create.  Welcome to my story of passion, tradition and the unbreakable bond between culture and cuisine.</p>
-                <div id="logoBtnWrapper" class="mt-20 flex flex-alignItems-start flex-justifyContent-spaceBetween col-12">
-                    <img id="logoMidPage" src="./chef-kapernaros/images/logo-chef-kapernaros-2.png" alt="Chef Kapernaros middle pics">
-                    <a class="btnPrimary" href="./pages/bio.html">Chef's Story</a>
-                </div>
-            </div>
-            <div class="bioImgContainer">
-                <img id="bioChefImg" src="https://res.cloudinary.com/drdrs6pdq/image/upload/v1759880317/Niko/new_materials/chef-pic-27_qybyva.jpg" alt="Chef Kapernaros middle pics">
-            </div>
-        </section>
-
-        <section id="servicesSection" class="bioLandingPicContainer flex flex-alignItems-center flex-justifyContent-center">
-            <div class="animatedPicWrapper">
-                <div class="picSubWr">
-                    <img id="pic1" src="https://res.cloudinary.com/drdrs6pdq/image/upload/v1759880305/Niko/new_materials/chef-pic-16_qwwkxy.jpg" alt=" Chef Kapernaros middle pics">
-                    <img id="pic2" src="https://res.cloudinary.com/drdrs6pdq/image/upload/v1759880317/Niko/new_materials/chef-pic-26_vyi7aa.jpg" alt=" Chef Kapernaros middle pics">
-                    <img id="pic3" src="https://res.cloudinary.com/drdrs6pdq/image/upload/v1709573633/Niko/Kapernaros_middle_pic_2_x0eeuu.webp" alt=" Chef Kapernaros middle pics">
-                    <img id="pic4" src="https://res.cloudinary.com/drdrs6pdq/image/upload/v1709578127/Niko/Kapernaros_bio_landing_4_l6yclh.webp" alt=" Chef Kapernaros middle pics">
-                </div>
-            </div>
-            <div id="servicesSectionTextContainer" class="col-6 bioLandingTextWrapper homePageTextWrapper textWhite">
-                <p class="titlesChef m-0 textWhite">Services</p>
-                <p class="textservicesSection mt-20 textWhite">
-                    Take a journey through pivotal moments in my culinary career: from my early days in Greece to appearances on renowned cooking shows, and memorable collaborations with fellow food enthusiasts and celebrities.
-                </p>
-                <a class="btnPrimary greyShadow" href="./pages/services.html">Read More</a>
-            </div>
-        </section>
-
-        <section id="chefTableSec" class="bioLandingPicContainer flex flex-justifyContent-center flex-alignItems-center">
-            <div id="chefTableTextContainer" class="col-6 bioLandingTextWrapper homePageTextWrapper">
-                <p class="titlesChef m-0">The Chef’s Table</p>
-                <p class="textchefTable mt-20">
-                    Delight in flavors that capture the essence of Greek cuisine, infused with the culmination of my global experiences and culinary expertise. Join me for an unforgettable dining experience that transcends borders and celebrates the art of food at The Chef’s Table.
-                </p>
-                <a class="btnPrimary" href="./pages/chef-table.html">Read More</a>
-            </div>
-            <div id="chefTablePicContainer" class="col-6 animatedPicWrapper">
-                <div class="picSubWr">
-                    <img id="pic1" src="https://res.cloudinary.com/drdrs6pdq/image/upload/v1715129221/Niko/chef_table/viber_image_2024-01-11_23-53-34-905_gjxng3.jpg" alt=" Chef Kapernaros middle pics">
-                    <img id="pic2" src="https://res.cloudinary.com/drdrs6pdq/image/upload/v1760143358/Niko/new_materials/navy-pier-chef-kapernaros_m79t4g.jpg" alt=" Chef Kapernaros middle pics">
-                    <img id="pic3" src="https://res.cloudinary.com/drdrs6pdq/image/upload/v1715129212/Niko/chef_table/viber_image_2024-01-11_23-53-34-649_ihor7w.jpg" alt=" Chef Kapernaros middle pics">
-                    <img id="pic4" src="https://res.cloudinary.com/drdrs6pdq/image/upload/v1760143358/Niko/new_materials/chef-kapernaros-on-the-pass_fl0osx.jpg" alt=" Chef Kapernaros middle pics">
-                </div>
-            </div>
-
-
-        </section>
     
         
         <!-- <section id="bobbyFlay" class="hide">
@@ -260,6 +176,7 @@
         <script defer type="text/javascript" src="./chef-kapernaros/script/main.js"></script>
         <!-- <script src="https://polyfill.io/v3/polyfill.min.js?features=IntersectionObserver"></script> -->
         <script src="./analytics.js"></script>
+
         <script>
             document.querySelectorAll('video.slowmo').forEach(v => {
                 const rate = 0.9              // speed
